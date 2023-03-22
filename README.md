@@ -8,7 +8,7 @@ or
 `yarn add @prisma/client`
 ```
 
-1. **What is Prisma and why do we need it?**
+**1. What is Prisma and why do we need it?**
 
 ```
 Prisma is an open-source, modern database toolkit that simplifies database access and management for application developers. It provides a type-safe and scalable ORM (Object-Relational Mapping) that allows developers to interact with databases using programming languages and APIs they are already familiar with, such as JavaScript, TypeScript, and Node.js.
@@ -16,7 +16,7 @@ Prisma is an open-source, modern database toolkit that simplifies database acces
 Prisma supports various popular databases such as PostgreSQL, MySQL, and MongoDB, and enables developers to perform complex database operations with ease, such as filtering, sorting, pagination, and aggregation. Prisma also handles database schema migrations, making it easy to make changes to the database schema without causing disruptions to the application.
 ```
 
-2. How Prisma differs from other ORMs
+**2. How Prisma differs from other ORMs**
 
 ```
 Prisma differs from other ORMs (Object-Relational Mapping) in a few key ways:
@@ -32,12 +32,12 @@ Language support: Prisma supports multiple programming languages, including Java
 Overall, Prisma provides a more modern, efficient, and secure way to manage database interactions than many other ORMs, making it an attractive choice for many developers.
 ```
 
-3. Limitations of prisma
+**3. Limitations of prisma**
 
 ```
 While Prisma is a powerful tool for working with databases and has many advantages over traditional ORMs, there are some limitations to consider:
 
-Limited database support: While Prisma supports several popular databases such as MySQL, PostgreSQL, and SQLite, it does not support all databases. If your application requires a specific database that Prisma does not support, you may need to use a different tool.
+Limited database support : While Prisma supports several popular databases such as MySQL, PostgreSQL, and SQLite, it does not support all databases. If your application requires a specific database that Prisma does not support, you may need to use a different tool.
 
 No support for stored procedures or triggers: Prisma does not support stored procedures or triggers, which may be a limitation if your application requires complex database logic.
 
