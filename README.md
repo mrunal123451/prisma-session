@@ -1,4 +1,6 @@
-# To install:
+# Prisma Basics
+
+### To install:
 
 `npm install @prisma/client`
 or
