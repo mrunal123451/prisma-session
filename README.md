@@ -1,12 +1,25 @@
 # Prisma Basics ![Prisma](https://prismalens.vercel.app/header/logo-white.svg)
 
-### To install:
+### To install prisma:
 
 ```
 `npm install @prisma/client`
 or
 `yarn add @prisma/client`
 ```
+
+### To run a ts file
+
+- `npm install -g ts-node` -> to install ts-node (no need to convet in js)
+- `ts-node .\index.ts`
+
+### To generate migration file
+
+- `npx prisma migrate dev`
+
+## To generate migrated file(To apply changes on database)
+
+- `npx prisma generate`
 
 **1. What is Prisma and why do we need it?**
 
