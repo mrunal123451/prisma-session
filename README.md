@@ -6,6 +6,10 @@
 or
 `yarn add @prisma/client`
 
+```
+what is this
+```
+
 1. What is Prisma and why do we need it?
 
 Prisma is an open-source, modern database toolkit that simplifies database access and management for application developers. It provides a type-safe and scalable ORM (Object-Relational Mapping) that allows developers to interact with databases using programming languages and APIs they are already familiar with, such as JavaScript, TypeScript, and Node.js.
