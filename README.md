@@ -1,4 +1,4 @@
-# Prisma Basics
+# Prisma Basics ![Prisma](https://prismalens.vercel.app/header/logo-white.svg)
 
 ### To install:
 
