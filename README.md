@@ -2,12 +2,10 @@
 
 ### To install:
 
+```
 `npm install @prisma/client`
 or
 `yarn add @prisma/client`
-
-```
-
 ```
 
 1. What is Prisma and why do we need it?
@@ -34,4 +32,22 @@ Language support: Prisma supports multiple programming languages, including Java
 Overall, Prisma provides a more modern, efficient, and secure way to manage database interactions than many other ORMs, making it an attractive choice for many developers.
 ```
 
-3.
+3. Limitations of prisma
+
+```
+While Prisma is a powerful tool for working with databases and has many advantages over traditional ORMs, there are some limitations to consider:
+
+Limited database support: While Prisma supports several popular databases such as MySQL, PostgreSQL, and SQLite, it does not support all databases. If your application requires a specific database that Prisma does not support, you may need to use a different tool.
+
+No support for stored procedures or triggers: Prisma does not support stored procedures or triggers, which may be a limitation if your application requires complex database logic.
+
+No support for transactions across multiple databases: Prisma does not support transactions across multiple databases, which may be a limitation if your application requires interactions with multiple databases.
+
+Limited support for schema migrations: While Prisma supports schema migrations, it does not have the same level of flexibility as other migration tools like Flyway or Liquibase.
+
+Limited support for legacy databases: If you are working with a legacy database that has a complex schema or non-standard naming conventions, it may be difficult to use Prisma without significant modifications to the database schema.
+
+Limited support for performance tuning: While Prisma has many built-in performance optimizations, it may not be suitable for extremely large or complex databases that require advanced performance tuning.
+
+Overall, Prisma is a powerful tool that can simplify database management and improve developer productivity, but it may not be suitable for all applications or databases. It is important to carefully evaluate your application's requirements and the limitations of Prisma before deciding to use it.
+```
