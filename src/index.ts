@@ -3,6 +3,7 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 async function main() {
+  //delete all
     await prisma.user.create({
       data: {
         name: 'Alice',
@@ -15,6 +16,10 @@ async function main() {
        
     //   },
     })
+    //insert
+    //find many
+    //single record fetching
+    
     console.dir(allUsers, { depth: null })
   }
 main()

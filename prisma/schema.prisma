@@ -26,3 +26,11 @@ model testTable {
   User      User?  @relation(fields: [userId], references: [id])
   userId    String
 }
+
+//RELLATIONS ONE TO MANY, IN PRISMA & PLAIN DATABASE
+// SINGLE FILE
+// TYPE SAFETY
+//1. SCHEMA DESIGN
+//2. CRUD OPERATION, create many
+//3. Raw query, pagination, filtering, json data types and querying on it
+//4. 

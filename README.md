@@ -1,5 +1,11 @@
 # Prisma Basics ![Prisma](https://prismalens.vercel.app/header/logo-white.svg)
 
+```
+npx tsc --init -> Initialize typescript
+npm install prisma --save-dev
+npx prisma init
+```
+
 ### To install prisma:
 
 ```
@@ -17,7 +23,7 @@ or
 
 - `npx prisma migrate dev`
 
-## To generate migrated file(To apply changes on database)
+## Execute migrated file(To apply changes on database)
 
 - `npx prisma generate`
 
@@ -26,7 +32,7 @@ or
 ```
 Prisma is an open-source, modern database toolkit that simplifies database access and management for application developers. It provides a type-safe and scalable ORM (Object-Relational Mapping) that allows developers to interact with databases using programming languages and APIs they are already familiar with, such as JavaScript, TypeScript, and Node.js.
 
-Prisma supports various popular databases such as PostgreSQL, MySQL, and MongoDB, and enables developers to perform complex database operations with ease, such as filtering, sorting, pagination, and aggregation. Prisma also handles database schema migrations, making it easy to make changes to the database schema without causing disruptions to the application.
+Prisma supports various popular databases such as postgresql, mysql, sqlite, sqlserver, mongodb and cockroachdb, and enables developers to perform complex database operations with ease, such as filtering, sorting, pagination, and aggregation. Prisma also handles database schema migrations, making it easy to make changes to the database schema without causing disruptions to the application.
 ```
 
 **2. How Prisma differs from other ORMs**
@@ -50,17 +56,13 @@ Overall, Prisma provides a more modern, efficient, and secure way to manage data
 ```
 While Prisma is a powerful tool for working with databases and has many advantages over traditional ORMs, there are some limitations to consider:
 
-Limited database support : While Prisma supports several popular databases such as MySQL, PostgreSQL, and SQLite, it does not support all databases. If your application requires a specific database that Prisma does not support, you may need to use a different tool.
+* No support for stored procedures or triggers: Prisma does not support stored procedures or triggers, which may be a limitation if your application requires complex database logic.
 
-No support for stored procedures or triggers: Prisma does not support stored procedures or triggers, which may be a limitation if your application requires complex database logic.
+* No support for transactions across multiple databases: Prisma does not support transactions across multiple databases, which may be a limitation if your application requires interactions with multiple databases.
 
-No support for transactions across multiple databases: Prisma does not support transactions across multiple databases, which may be a limitation if your application requires interactions with multiple databases.
+* Limited support for legacy databases: If you are working with a legacy database that has a complex schema or non-standard naming conventions, it may be difficult to use Prisma without significant modifications to the database schema.
 
-Limited support for schema migrations: While Prisma supports schema migrations, it does not have the same level of flexibility as other migration tools like Flyway or Liquibase.
-
-Limited support for legacy databases: If you are working with a legacy database that has a complex schema or non-standard naming conventions, it may be difficult to use Prisma without significant modifications to the database schema.
-
-Limited support for performance tuning: While Prisma has many built-in performance optimizations, it may not be suitable for extremely large or complex databases that require advanced performance tuning.
+* Limited support for performance tuning: While Prisma has many built-in performance optimizations, it may not be suitable for extremely large or complex databases that require advanced performance tuning.
 
 Overall, Prisma is a powerful tool that can simplify database management and improve developer productivity, but it may not be suitable for all applications or databases. It is important to carefully evaluate your application's requirements and the limitations of Prisma before deciding to use it.
 ```
