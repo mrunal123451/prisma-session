@@ -1,5 +1,7 @@
 # Prisma Basics ![Prisma](https://prismalens.vercel.app/header/logo-white.svg)
 
+### Base setup
+
 ```
 npm init -y
 npm install prisma typescript ts-node @types/node --save-dev
