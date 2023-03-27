@@ -8,7 +8,6 @@ npm install prisma typescript ts-node @types/node --save-dev
 npx tsc --init
 npx prisma
 npx prisma init
-
 ```
 
 ### To run a ts file
