@@ -1,22 +1,16 @@
 # Prisma Basics ![Prisma](https://prismalens.vercel.app/header/logo-white.svg)
 
 ```
-npx tsc --init -> Initialize typescript
-npm install prisma --save-dev
+npm init -y
+npm install prisma typescript ts-node @types/node --save-dev
+npx tsc --init
+npx prisma
 npx prisma init
-```
 
-### To install prisma:
-
-```
-`npm install @prisma/client`
-or
-`yarn add @prisma/client`
 ```
 
 ### To run a ts file
 
-- `npm install -g ts-node` -> to install ts-node (no need to convet in js)
 - `ts-node .\index.ts`
 
 ### To generate migration file
